@@ -1,0 +1,161 @@
+[2025-10-15 11:37:23,212 INFO 30 - main()]  Received JSON: {"result": "Wrong password!"}
+[2025-10-15 11:37:23,214 INFO 31 - main()]  Login found: superuser
+[2025-10-15 11:37:23,214 INFO 40 - main()]  Password length = 1
+[2025-10-15 11:38:01,094 DEBUG 17 - main()]  Read possible logins from file
+[2025-10-15 11:38:01,095 DEBUG 21 - main()]  Client socket connected on localhost port 9090
+[2025-10-15 11:38:01,095 DEBUG 23 - main()]  Try login: admin
+[2025-10-15 11:38:01,095 DEBUG 25 - main()]  Send JSON string: {"login": "admin", "password": "x"}
+[2025-10-15 11:38:01,095 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,095 DEBUG 23 - main()]  Try login: Admin
+[2025-10-15 11:38:01,095 DEBUG 25 - main()]  Send JSON string: {"login": "Admin", "password": "x"}
+[2025-10-15 11:38:01,097 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,097 DEBUG 23 - main()]  Try login: admin1
+[2025-10-15 11:38:01,097 DEBUG 25 - main()]  Send JSON string: {"login": "admin1", "password": "x"}
+[2025-10-15 11:38:01,097 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,098 DEBUG 23 - main()]  Try login: admin2
+[2025-10-15 11:38:01,098 DEBUG 25 - main()]  Send JSON string: {"login": "admin2", "password": "x"}
+[2025-10-15 11:38:01,098 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,098 DEBUG 23 - main()]  Try login: admin3
+[2025-10-15 11:38:01,098 DEBUG 25 - main()]  Send JSON string: {"login": "admin3", "password": "x"}
+[2025-10-15 11:38:01,098 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,098 DEBUG 23 - main()]  Try login: user1
+[2025-10-15 11:38:01,098 DEBUG 25 - main()]  Send JSON string: {"login": "user1", "password": "x"}
+[2025-10-15 11:38:01,098 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,099 DEBUG 23 - main()]  Try login: user2
+[2025-10-15 11:38:01,099 DEBUG 25 - main()]  Send JSON string: {"login": "user2", "password": "x"}
+[2025-10-15 11:38:01,099 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,099 DEBUG 23 - main()]  Try login: root
+[2025-10-15 11:38:01,099 DEBUG 25 - main()]  Send JSON string: {"login": "root", "password": "x"}
+[2025-10-15 11:38:01,099 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,099 DEBUG 23 - main()]  Try login: default
+[2025-10-15 11:38:01,099 DEBUG 25 - main()]  Send JSON string: {"login": "default", "password": "x"}
+[2025-10-15 11:38:01,099 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,099 DEBUG 23 - main()]  Try login: new_user
+[2025-10-15 11:38:01,099 DEBUG 25 - main()]  Send JSON string: {"login": "new_user", "password": "x"}
+[2025-10-15 11:38:01,099 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,099 DEBUG 23 - main()]  Try login: some_user
+[2025-10-15 11:38:01,099 DEBUG 25 - main()]  Send JSON string: {"login": "some_user", "password": "x"}
+[2025-10-15 11:38:01,099 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,099 DEBUG 23 - main()]  Try login: new_admin
+[2025-10-15 11:38:01,099 DEBUG 25 - main()]  Send JSON string: {"login": "new_admin", "password": "x"}
+[2025-10-15 11:38:01,100 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,100 DEBUG 23 - main()]  Try login: administrator
+[2025-10-15 11:38:01,100 DEBUG 25 - main()]  Send JSON string: {"login": "administrator", "password": "x"}
+[2025-10-15 11:38:01,100 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,100 DEBUG 23 - main()]  Try login: Administrator
+[2025-10-15 11:38:01,100 DEBUG 25 - main()]  Send JSON string: {"login": "Administrator", "password": "x"}
+[2025-10-15 11:38:01,100 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,100 DEBUG 23 - main()]  Try login: superuser
+[2025-10-15 11:38:01,100 DEBUG 25 - main()]  Send JSON string: {"login": "superuser", "password": "x"}
+[2025-10-15 11:38:01,100 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,100 DEBUG 23 - main()]  Try login: super
+[2025-10-15 11:38:01,100 DEBUG 25 - main()]  Send JSON string: {"login": "super", "password": "x"}
+[2025-10-15 11:38:01,100 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,100 DEBUG 23 - main()]  Try login: su
+[2025-10-15 11:38:01,101 DEBUG 25 - main()]  Send JSON string: {"login": "su", "password": "x"}
+[2025-10-15 11:38:01,101 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,101 DEBUG 23 - main()]  Try login: alex
+[2025-10-15 11:38:01,101 DEBUG 25 - main()]  Send JSON string: {"login": "alex", "password": "x"}
+[2025-10-15 11:38:01,101 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,101 DEBUG 23 - main()]  Try login: suser
+[2025-10-15 11:38:01,101 DEBUG 25 - main()]  Send JSON string: {"login": "suser", "password": "x"}
+[2025-10-15 11:38:01,101 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,101 DEBUG 23 - main()]  Try login: rootuser
+[2025-10-15 11:38:01,101 DEBUG 25 - main()]  Send JSON string: {"login": "rootuser", "password": "x"}
+[2025-10-15 11:38:01,101 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,101 DEBUG 23 - main()]  Try login: adminadmin
+[2025-10-15 11:38:01,101 DEBUG 25 - main()]  Send JSON string: {"login": "adminadmin", "password": "x"}
+[2025-10-15 11:38:01,101 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,101 DEBUG 23 - main()]  Try login: useruser
+[2025-10-15 11:38:01,101 DEBUG 25 - main()]  Send JSON string: {"login": "useruser", "password": "x"}
+[2025-10-15 11:38:01,103 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,103 DEBUG 23 - main()]  Try login: superadmin
+[2025-10-15 11:38:01,103 DEBUG 25 - main()]  Send JSON string: {"login": "superadmin", "password": "x"}
+[2025-10-15 11:38:01,103 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong login!"}
+[2025-10-15 11:38:01,103 DEBUG 23 - main()]  Try login: username
+[2025-10-15 11:38:01,103 DEBUG 25 - main()]  Send JSON string: {"login": "username", "password": "x"}
+[2025-10-15 11:38:01,103 DEBUG 28 - main()]  Received JSON string: {"result": "Wrong password!"}
+[2025-10-15 11:38:01,103 INFO 30 - main()]  Received JSON: {"result": "Wrong password!"}
+[2025-10-15 11:38:01,103 INFO 31 - main()]  Login found: username
+[2025-10-15 11:38:01,103 INFO 40 - main()]  Password length = 1
+[2025-10-15 11:38:01,103 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,104 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,104 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,104 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,104 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,104 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,104 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,104 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,104 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,105 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,105 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,105 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,105 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,105 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,105 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,105 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,105 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,106 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,106 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,106 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,106 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,106 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,106 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,106 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,107 DEBUG 47 - main()]  Response took: 0.0010905265808105469 seconds
+[2025-10-15 11:38:01,208 DEBUG 47 - main()]  Response took: 0.1007547378540039 seconds
+[2025-10-15 11:38:01,208 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,208 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,208 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,208 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,209 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,209 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,209 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,209 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,209 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,210 DEBUG 47 - main()]  Response took: 0.0010483264923095703 seconds
+[2025-10-15 11:38:01,210 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,211 DEBUG 47 - main()]  Response took: 0.0005347728729248047 seconds
+[2025-10-15 11:38:01,211 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,211 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,211 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,211 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,211 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,211 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,211 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,212 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,212 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,212 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,212 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,212 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,212 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,212 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,212 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,213 DEBUG 47 - main()]  Response took: 0.001039743423461914 seconds
+[2025-10-15 11:38:01,213 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,213 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,213 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,213 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,213 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,213 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,213 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:38:01,214 DEBUG 47 - main()]  Response took: 0.0 seconds
+[2025-10-15 11:41:14,474 INFO 30 - main()]  Received JSON: {"result": "Wrong password!"}
+[2025-10-15 11:41:14,475 INFO 31 - main()]  Login found: default
+[2025-10-15 11:41:14,475 INFO 40 - main()]  Password length = 1
+[2025-10-15 11:41:14,577 INFO 50 - main()]  Password found: q
+[2025-10-15 11:41:14,577 INFO 40 - main()]  Password length = 2
+[2025-10-15 11:41:14,681 INFO 50 - main()]  Password found: qT
+[2025-10-15 11:41:14,681 INFO 40 - main()]  Password length = 3
+[2025-10-15 11:41:14,784 INFO 50 - main()]  Password found: qTh
+[2025-10-15 11:41:14,784 INFO 40 - main()]  Password length = 4
+[2025-10-15 11:41:14,889 INFO 50 - main()]  Password found: qThX
+[2025-10-15 11:41:14,889 INFO 40 - main()]  Password length = 5
+[2025-10-15 11:41:14,990 INFO 50 - main()]  Password found: qThXd
+[2025-10-15 11:41:14,990 INFO 40 - main()]  Password length = 6
+[2025-10-15 11:41:15,095 INFO 50 - main()]  Password found: qThXdQ
+[2025-10-15 11:41:15,095 INFO 40 - main()]  Password length = 7
+[2025-10-15 11:41:15,199 INFO 50 - main()]  Password found: qThXdQH
+[2025-10-15 11:41:15,199 INFO 40 - main()]  Password length = 8
+[2025-10-15 11:41:15,202 INFO 54 - main()]  Received JSON: {"result": "Connection success!"}
+[2025-10-15 11:41:15,202 INFO 55 - main()]  Password found: qThXdQHB
